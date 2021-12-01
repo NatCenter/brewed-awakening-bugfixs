@@ -32,11 +32,7 @@ if (eventActivate.id.startsWith('product--')){
    const compair=products.find((products)=>{
        return products.id===convertID
    })
-    
-   if(clickEvent){
-   window.alert(`${compair.name} Costs ${compair.price}`)
-   }
 }
-   
+    
+    })
 
-})
