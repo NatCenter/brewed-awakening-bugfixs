@@ -13,12 +13,9 @@ export const Products = () => {
 
     return html
 }
-//make a click event 
-//get the id of the product
-//narow it down to just the products id
-//have a true and false of the product but cant get the id of the product
-//using an if statment with the id.startsWith allows you filter the id of the product array
-document.addEventListener("click", clickEvent=>{
+
+
+
         const eventActivate=clickEvent.target;
     if (eventActivate.id.startsWith('product--')){
         //show the id of the product
@@ -39,3 +36,4 @@ document.addEventListener("click", clickEvent=>{
        
     
     })
+
